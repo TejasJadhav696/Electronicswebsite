@@ -1,0 +1,141 @@
+@charset "UTF-8";
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(120deg,blue,rgb(122, 205, 238),rgb(28, 25, 165));
+}
+.box
+{
+    width: 80%;
+    min-height: 400px;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    background-color: white;
+    background-repeat: no-repeat;
+     background-image: linear-gradient(180deg,#BBD2C5,#536976,#292e42);
+    background-blend-mode: screen;
+}
+.Login
+{
+    width: 45%;
+    height: 350px;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-top: 25px;
+    box-shadow: 5px 5px 5px 5px gray;
+    float: left;
+}
+.Login h2
+{
+    text-align: center;
+}
+.Login h4
+{
+    margin-left: 25px;
+}
+.Login h4 a
+{
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+label
+{
+    margin-left: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+label a
+{
+    margin-left: 138px;
+    text-decoration: none;
+}
+input[type=text]
+{
+    width: 80%;
+    margin-left: 25px;
+    padding: 5px;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(/resources/images/1564534_customer_man_user_account_profile_icon.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+input[type=password]
+{
+    width: 80%;
+    margin-left: 25px;
+    padding: 5px;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(/resources/images/5173012_internet_lock_locked_padlock_password_icon.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+input[type=submit]
+{
+    width: 80%;
+    margin-left: 25px;
+    padding: 5px;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: violet;
+    color: white;
+}
+input[type=checkbox]
+{
+    margin-left: 25px;
+}
+/*
+#mass{
+	width:80%;
+	margin-left: 25px;
+}*/
+
+.Login h3
+{
+    text-align: center;
+}
+#face
+{
+    width: 40%;
+    background-color: white;
+    color: blue;
+    background-image: url(/resources/images/317746_facebook_social\ media_social_icon.png);
+    background-repeat: no-repeat;
+}
+#goog
+{
+    width: 40%;
+    background-color: white;
+    color: orange;
+    background-image: url(/resources/images/1298745_google_brand_branding_logo_network_icon.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+}
+.image
+{
+    width: 45%;
+    height: 350px;
+    margin-right: 40px;
+    margin-top: 27px;
+    float: right;
+}
+.box img
+{
+	width:100%;
+	margin-left:50px;
+   height: 100%;
+   position: relative;
+}
